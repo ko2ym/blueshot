@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07E8E4512EDE1032C74C7832 /* CanvasRendererTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A863FBC08B3E26A04AD465 /* CanvasRendererTests.swift */; };
+		0D72C979C6BB242970A0ACBE /* CaptureResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367F360E78E04608284D3C42 /* CaptureResult.swift */; };
+		1054DBF7B905EAAC669952F9 /* Logger+Blueshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD1D61C5676B5E8ADF43553 /* Logger+Blueshot.swift */; };
+		146F05408AAA1E529FC70728 /* MenuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38726FE126F73DB468FBFEF /* MenuBarView.swift */; };
+		163D5DDD05C5A756DC6FDF75 /* RegionSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313B66BCFCFE3ABD9D7BA1E2 /* RegionSelectorView.swift */; };
+		1DD4B320A95E21ED4508A464 /* PermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DE10AF6162CBA63CC46ACC /* PermissionManager.swift */; };
+		33E4BAB0436A6B1A8E55DE3E /* BookmarkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C784DD5259E6DFB888A9C440 /* BookmarkManager.swift */; };
+		5514E74226A7C0C1542163AB /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59CC7DF3572C900296C1937F /* CanvasView.swift */; };
+		5A374EF1B7916FDAEEEC8463 /* BlurAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC131CB0DAF61D6AF104C016 /* BlurAnnotation.swift */; };
+		5A868731DFC97727545D06D5 /* MagnifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4F79A622A810927DFA39CC /* MagnifierView.swift */; };
+		5C0F2E4F30D292D199F3045F /* Annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3D2233D56644050CE7E8D6 /* Annotation.swift */; };
+		6E72A7F9D6716C3188C80107 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CCC37DAEE1E2C2A6D081E1 /* SettingsView.swift */; };
+		7199194B024B9D71B7DB1AC6 /* FileNamingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C5EFBE9717BD596680323C /* FileNamingService.swift */; };
+		782514050E985E1EC2E209E6 /* TextAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D721FF7BDBCC6697A2BAC3F9 /* TextAnnotation.swift */; };
+		782EC2683BC99EAFF84384C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0344D43195AC6393ADC15863 /* Assets.xcassets */; };
+		7A577FEE5C9F3DD99DBE0F80 /* HighlightAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAA6CB9143BE085CFA4D4AC /* HighlightAnnotation.swift */; };
+		7A67588313018099DCA6063C /* PermissionPromptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE30C7CF9E75265D26D32CB /* PermissionPromptView.swift */; };
+		7CC7BD199F9A252F41CBA1B7 /* GeneralSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD7E431048CF88C7FFFA0CA /* GeneralSettingsView.swift */; };
+		7F79759900E82CA3E4DE76D2 /* ExportConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9617C014D58A6B841FF5642E /* ExportConfiguration.swift */; };
+		809F52BC06D3FF25B66F2525 /* ArrowAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45A371CA887FFD473B8E6C6 /* ArrowAnnotation.swift */; };
+		82BFE09EEC15D799FAE82E47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401D84F0832D5B0F9AF1D0EB /* AppDelegate.swift */; };
+		84EC8704F4B0D00483EDBE02 /* BlueshotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E296AA0D0DD91CED6E91E978 /* BlueshotApp.swift */; };
+		85671AF796FBAC25FFC3F381 /* FileSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44E3E9C69DE09D6FAA97ECE /* FileSettingsView.swift */; };
+		88657CBB057A824CA224689B /* RectangleAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B8FFDEC9D6A5165DD6934F /* RectangleAnnotation.swift */; };
+		88D5BC5BE9ADF46285AF010A /* EditorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585264BF88104DDF2465B2ED /* EditorViewModel.swift */; };
+		8BC6AEDAC926C4AD5D53A2E3 /* CanvasRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8FD0A0A75024842C2C3709 /* CanvasRenderer.swift */; };
+		8FC0D4FF4E91E382E14A65F9 /* HotKeyConfigurationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3198CF69A99B88B519D41CA3 /* HotKeyConfigurationTests.swift */; };
+		911C964E6C5DEE80F7C42D87 /* DrawingTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D5C87E9D60FFD1097F1700 /* DrawingTool.swift */; };
+		926F1E7B8BA6963C47732A40 /* RegionSelectorWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1698D85F687A03C8E0C0F7 /* RegionSelectorWindowController.swift */; };
+		9B75FEA4FC2FE69315550336 /* EditorWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D86D31FBD0C6B75F7FAC98 /* EditorWindowController.swift */; };
+		9C7D6C269E1CE9FAF19DABA9 /* HotKeyConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33DEBE71CF12601A39B4B44 /* HotKeyConfiguration.swift */; };
+		9C9FB817C726D5E59DA552BB /* BlueshotError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD9669360B14F311D105336 /* BlueshotError.swift */; };
+		9FE895C0CE1E370FFF11E3A0 /* HotKeyRecorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602C66048C63302E13F279AF /* HotKeyRecorderView.swift */; };
+		AABB99F32CC9278386ED4002 /* CGGeometry+Scaling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73466B47DACF9D40EA92A4D8 /* CGGeometry+Scaling.swift */; };
+		AEDCC4A381DBC5D03F39BF6B /* UndoRedoManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E53B42DC208FBB67C5BF7D5 /* UndoRedoManagerTests.swift */; };
+		B529F2CB331BC374EF1050B9 /* HotKeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A3A8FD43E17A5EC9063B87 /* HotKeyManager.swift */; };
+		D01E6041BDCB37F1670B689F /* CaptureCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB489ADDD26D254EED1A7C4B /* CaptureCoordinator.swift */; };
+		D74B887E93A9D415D468A8E5 /* MosaicAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D6D0B13D8F80A28B4308C9 /* MosaicAnnotation.swift */; };
+		D9F5318B59A0A267C32062C4 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883CEF3DB17D419AB25C0C24 /* AppEnvironment.swift */; };
+		DBB1477345E59B8F7152DF50 /* UndoRedoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377F6599DA80C20664A871FE /* UndoRedoManager.swift */; };
+		DCB4D69EE3FF216B1DF288A2 /* ExportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D901224ADAEEF3EE9DB86C6 /* ExportService.swift */; };
+		E1674FEEA5792805A6278B54 /* HotKeySettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C701B0BB2AE4C77214EC4A4C /* HotKeySettingsView.swift */; };
+		E6997CC905B552E0D2A86D28 /* ScreenCaptureService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC66FE52FA497067A97D6AF /* ScreenCaptureService.swift */; };
+		E9A9695FEF4503A42E028F7D /* DisplayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4771D9C9ABB26301543C1D4E /* DisplayManager.swift */; };
+		ED618901A1D81F2B134099A1 /* EditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B827875A2B78EF904518EB /* EditorView.swift */; };
+		ED6AAB6D7DA9B16154D0330E /* FileNamingServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1727BC3DD6739E519F5F1298 /* FileNamingServiceTests.swift */; };
+		EE5AE5A5EEB6525FCA3527E3 /* AppPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E7815D7E3DFFDC1D8784AB /* AppPreferences.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		891BA6905201E5D034614063 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 478726839CF528640B527F2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46A65C7400B112AC2BB16F8E;
+			remoteInfo = Blueshot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0344D43195AC6393ADC15863 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1727BC3DD6739E519F5F1298 /* FileNamingServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileNamingServiceTests.swift; sourceTree = "<group>"; };
+		1D80E65F5882A356F55649BA /* Blueshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blueshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		254BE0F5C95CEA856EAEA891 /* BlueshotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueshotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		313B66BCFCFE3ABD9D7BA1E2 /* RegionSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionSelectorView.swift; sourceTree = "<group>"; };
+		3198CF69A99B88B519D41CA3 /* HotKeyConfigurationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotKeyConfigurationTests.swift; sourceTree = "<group>"; };
+		367F360E78E04608284D3C42 /* CaptureResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureResult.swift; sourceTree = "<group>"; };
+		377F6599DA80C20664A871FE /* UndoRedoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UndoRedoManager.swift; sourceTree = "<group>"; };
+		3A3D2233D56644050CE7E8D6 /* Annotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Annotation.swift; sourceTree = "<group>"; };
+		401D84F0832D5B0F9AF1D0EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		43C5EFBE9717BD596680323C /* FileNamingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileNamingService.swift; sourceTree = "<group>"; };
+		4771D9C9ABB26301543C1D4E /* DisplayManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayManager.swift; sourceTree = "<group>"; };
+		4C1698D85F687A03C8E0C0F7 /* RegionSelectorWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionSelectorWindowController.swift; sourceTree = "<group>"; };
+		52EB7DDBEF41C41DD758B6AB /* Blueshot.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Blueshot.entitlements; sourceTree = "<group>"; };
+		56B827875A2B78EF904518EB /* EditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorView.swift; sourceTree = "<group>"; };
+		56E7815D7E3DFFDC1D8784AB /* AppPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPreferences.swift; sourceTree = "<group>"; };
+		57D6D0B13D8F80A28B4308C9 /* MosaicAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosaicAnnotation.swift; sourceTree = "<group>"; };
+		57DE10AF6162CBA63CC46ACC /* PermissionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionManager.swift; sourceTree = "<group>"; };
+		585264BF88104DDF2465B2ED /* EditorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorViewModel.swift; sourceTree = "<group>"; };
+		59B8FFDEC9D6A5165DD6934F /* RectangleAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleAnnotation.swift; sourceTree = "<group>"; };
+		59CC7DF3572C900296C1937F /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		5C4F79A622A810927DFA39CC /* MagnifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnifierView.swift; sourceTree = "<group>"; };
+		5DE30C7CF9E75265D26D32CB /* PermissionPromptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionPromptView.swift; sourceTree = "<group>"; };
+		5E53B42DC208FBB67C5BF7D5 /* UndoRedoManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UndoRedoManagerTests.swift; sourceTree = "<group>"; };
+		602C66048C63302E13F279AF /* HotKeyRecorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotKeyRecorderView.swift; sourceTree = "<group>"; };
+		69D86D31FBD0C6B75F7FAC98 /* EditorWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorWindowController.swift; sourceTree = "<group>"; };
+		73466B47DACF9D40EA92A4D8 /* CGGeometry+Scaling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGGeometry+Scaling.swift"; sourceTree = "<group>"; };
+		7CAA6CB9143BE085CFA4D4AC /* HighlightAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightAnnotation.swift; sourceTree = "<group>"; };
+		883CEF3DB17D419AB25C0C24 /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+		8D901224ADAEEF3EE9DB86C6 /* ExportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportService.swift; sourceTree = "<group>"; };
+		8DD9669360B14F311D105336 /* BlueshotError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueshotError.swift; sourceTree = "<group>"; };
+		9617C014D58A6B841FF5642E /* ExportConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportConfiguration.swift; sourceTree = "<group>"; };
+		98D5C87E9D60FFD1097F1700 /* DrawingTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingTool.swift; sourceTree = "<group>"; };
+		A4A3A8FD43E17A5EC9063B87 /* HotKeyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotKeyManager.swift; sourceTree = "<group>"; };
+		AC131CB0DAF61D6AF104C016 /* BlurAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurAnnotation.swift; sourceTree = "<group>"; };
+		AF8FD0A0A75024842C2C3709 /* CanvasRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasRenderer.swift; sourceTree = "<group>"; };
+		B2CCC37DAEE1E2C2A6D081E1 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		BFC66FE52FA497067A97D6AF /* ScreenCaptureService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenCaptureService.swift; sourceTree = "<group>"; };
+		C0A863FBC08B3E26A04AD465 /* CanvasRendererTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasRendererTests.swift; sourceTree = "<group>"; };
+		C38726FE126F73DB468FBFEF /* MenuBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarView.swift; sourceTree = "<group>"; };
+		C701B0BB2AE4C77214EC4A4C /* HotKeySettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotKeySettingsView.swift; sourceTree = "<group>"; };
+		C784DD5259E6DFB888A9C440 /* BookmarkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkManager.swift; sourceTree = "<group>"; };
+		CFD1D61C5676B5E8ADF43553 /* Logger+Blueshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Logger+Blueshot.swift"; sourceTree = "<group>"; };
+		D44E3E9C69DE09D6FAA97ECE /* FileSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileSettingsView.swift; sourceTree = "<group>"; };
+		D721FF7BDBCC6697A2BAC3F9 /* TextAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAnnotation.swift; sourceTree = "<group>"; };
+		DB489ADDD26D254EED1A7C4B /* CaptureCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureCoordinator.swift; sourceTree = "<group>"; };
+		DBD7E431048CF88C7FFFA0CA /* GeneralSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralSettingsView.swift; sourceTree = "<group>"; };
+		E296AA0D0DD91CED6E91E978 /* BlueshotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueshotApp.swift; sourceTree = "<group>"; };
+		E33DEBE71CF12601A39B4B44 /* HotKeyConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotKeyConfiguration.swift; sourceTree = "<group>"; };
+		EEA1A70176323BB3FD75B07E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F45A371CA887FFD473B8E6C6 /* ArrowAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrowAnnotation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		017A6500056D2C94FDF59535 = {
+			isa = PBXGroup;
+			children = (
+				A4629A3F0E95F690B9693311 /* Blueshot */,
+				5A98AF4C15EF920255EFC917 /* BlueshotTests */,
+				7C1842FE7E6A5C046A929A6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01E07F1AC3B42B68B146B23C /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				8DD9669360B14F311D105336 /* BlueshotError.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		0DBE9ACB5F72FDBC94A90BA6 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				01E07F1AC3B42B68B146B23C /* Errors */,
+				68C2EC18F3E2D08682485556 /* Models */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		1058FBDED58411D7331042D3 /* Annotations */ = {
+			isa = PBXGroup;
+			children = (
+				3A3D2233D56644050CE7E8D6 /* Annotation.swift */,
+				F45A371CA887FFD473B8E6C6 /* ArrowAnnotation.swift */,
+				AC131CB0DAF61D6AF104C016 /* BlurAnnotation.swift */,
+				7CAA6CB9143BE085CFA4D4AC /* HighlightAnnotation.swift */,
+				57D6D0B13D8F80A28B4308C9 /* MosaicAnnotation.swift */,
+				59B8FFDEC9D6A5165DD6934F /* RectangleAnnotation.swift */,
+				D721FF7BDBCC6697A2BAC3F9 /* TextAnnotation.swift */,
+			);
+			path = Annotations;
+			sourceTree = "<group>";
+		};
+		15800570F38A39FB79B3FC2C /* Logging */ = {
+			isa = PBXGroup;
+			children = (
+				CFD1D61C5676B5E8ADF43553 /* Logger+Blueshot.swift */,
+			);
+			path = Logging;
+			sourceTree = "<group>";
+		};
+		1C1DB7087F8901AC1C6FFA03 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				56E7815D7E3DFFDC1D8784AB /* AppPreferences.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		1F89CF62FAF5A76EAA88391A /* Capture */ = {
+			isa = PBXGroup;
+			children = (
+				C76F355F7A940A6ED9B2BBEF /* RegionSelector */,
+				DB489ADDD26D254EED1A7C4B /* CaptureCoordinator.swift */,
+				4771D9C9ABB26301543C1D4E /* DisplayManager.swift */,
+				BFC66FE52FA497067A97D6AF /* ScreenCaptureService.swift */,
+			);
+			path = Capture;
+			sourceTree = "<group>";
+		};
+		2A2E26EA787982CF1E855DB5 /* Permissions */ = {
+			isa = PBXGroup;
+			children = (
+				57DE10AF6162CBA63CC46ACC /* PermissionManager.swift */,
+				5DE30C7CF9E75265D26D32CB /* PermissionPromptView.swift */,
+			);
+			path = Permissions;
+			sourceTree = "<group>";
+		};
+		3CB2F68762F90CE7E29A0E1A /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				1F89CF62FAF5A76EAA88391A /* Capture */,
+				E0C5BF6B1BD971498DB87A2B /* Editor */,
+				61F331B0B4CF875CA18E31B5 /* Export */,
+				E318E1736A4DF714184A9EC2 /* HotKey */,
+				8EA7C6B62F90AC2924DF9E24 /* MenuBar */,
+				2A2E26EA787982CF1E855DB5 /* Permissions */,
+				93FDBB7C21F04D65416D7733 /* Settings */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		4DAB6BD21551EC792A357668 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				401D84F0832D5B0F9AF1D0EB /* AppDelegate.swift */,
+				883CEF3DB17D419AB25C0C24 /* AppEnvironment.swift */,
+				E296AA0D0DD91CED6E91E978 /* BlueshotApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5A98AF4C15EF920255EFC917 /* BlueshotTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0A863FBC08B3E26A04AD465 /* CanvasRendererTests.swift */,
+				1727BC3DD6739E519F5F1298 /* FileNamingServiceTests.swift */,
+				3198CF69A99B88B519D41CA3 /* HotKeyConfigurationTests.swift */,
+				5E53B42DC208FBB67C5BF7D5 /* UndoRedoManagerTests.swift */,
+			);
+			path = BlueshotTests;
+			sourceTree = "<group>";
+		};
+		5F5C1D490F8C7D7F92CB7633 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				98D5C87E9D60FFD1097F1700 /* DrawingTool.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		61F331B0B4CF875CA18E31B5 /* Export */ = {
+			isa = PBXGroup;
+			children = (
+				C784DD5259E6DFB888A9C440 /* BookmarkManager.swift */,
+				8D901224ADAEEF3EE9DB86C6 /* ExportService.swift */,
+				43C5EFBE9717BD596680323C /* FileNamingService.swift */,
+			);
+			path = Export;
+			sourceTree = "<group>";
+		};
+		62EA99B1D4CA1AF5CA9BE920 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0344D43195AC6393ADC15863 /* Assets.xcassets */,
+				52EB7DDBEF41C41DD758B6AB /* Blueshot.entitlements */,
+				EEA1A70176323BB3FD75B07E /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		68C2EC18F3E2D08682485556 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				367F360E78E04608284D3C42 /* CaptureResult.swift */,
+				73466B47DACF9D40EA92A4D8 /* CGGeometry+Scaling.swift */,
+				9617C014D58A6B841FF5642E /* ExportConfiguration.swift */,
+				E33DEBE71CF12601A39B4B44 /* HotKeyConfiguration.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7C1842FE7E6A5C046A929A6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D80E65F5882A356F55649BA /* Blueshot.app */,
+				254BE0F5C95CEA856EAEA891 /* BlueshotTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		833911591DD0D6A5C2C5CCAE /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				15800570F38A39FB79B3FC2C /* Logging */,
+				1C1DB7087F8901AC1C6FFA03 /* Persistence */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		8EA7C6B62F90AC2924DF9E24 /* MenuBar */ = {
+			isa = PBXGroup;
+			children = (
+				C38726FE126F73DB468FBFEF /* MenuBarView.swift */,
+			);
+			path = MenuBar;
+			sourceTree = "<group>";
+		};
+		91989AE539A372452995965F /* Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				AF8FD0A0A75024842C2C3709 /* CanvasRenderer.swift */,
+				59CC7DF3572C900296C1937F /* CanvasView.swift */,
+			);
+			path = Canvas;
+			sourceTree = "<group>";
+		};
+		93FDBB7C21F04D65416D7733 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				D44E3E9C69DE09D6FAA97ECE /* FileSettingsView.swift */,
+				DBD7E431048CF88C7FFFA0CA /* GeneralSettingsView.swift */,
+				C701B0BB2AE4C77214EC4A4C /* HotKeySettingsView.swift */,
+				B2CCC37DAEE1E2C2A6D081E1 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		A4629A3F0E95F690B9693311 /* Blueshot */ = {
+			isa = PBXGroup;
+			children = (
+				4DAB6BD21551EC792A357668 /* App */,
+				0DBE9ACB5F72FDBC94A90BA6 /* Domain */,
+				3CB2F68762F90CE7E29A0E1A /* Features */,
+				833911591DD0D6A5C2C5CCAE /* Infrastructure */,
+				62EA99B1D4CA1AF5CA9BE920 /* Resources */,
+			);
+			path = Blueshot;
+			sourceTree = "<group>";
+		};
+		C76F355F7A940A6ED9B2BBEF /* RegionSelector */ = {
+			isa = PBXGroup;
+			children = (
+				5C4F79A622A810927DFA39CC /* MagnifierView.swift */,
+				313B66BCFCFE3ABD9D7BA1E2 /* RegionSelectorView.swift */,
+				4C1698D85F687A03C8E0C0F7 /* RegionSelectorWindowController.swift */,
+			);
+			path = RegionSelector;
+			sourceTree = "<group>";
+		};
+		E0C5BF6B1BD971498DB87A2B /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				1058FBDED58411D7331042D3 /* Annotations */,
+				91989AE539A372452995965F /* Canvas */,
+				5F5C1D490F8C7D7F92CB7633 /* Tools */,
+				56B827875A2B78EF904518EB /* EditorView.swift */,
+				585264BF88104DDF2465B2ED /* EditorViewModel.swift */,
+				69D86D31FBD0C6B75F7FAC98 /* EditorWindowController.swift */,
+				377F6599DA80C20664A871FE /* UndoRedoManager.swift */,
+			);
+			path = Editor;
+			sourceTree = "<group>";
+		};
+		E318E1736A4DF714184A9EC2 /* HotKey */ = {
+			isa = PBXGroup;
+			children = (
+				A4A3A8FD43E17A5EC9063B87 /* HotKeyManager.swift */,
+				602C66048C63302E13F279AF /* HotKeyRecorderView.swift */,
+			);
+			path = HotKey;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46A65C7400B112AC2BB16F8E /* Blueshot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D563D6F2EDF7F39BF5AF84E9 /* Build configuration list for PBXNativeTarget "Blueshot" */;
+			buildPhases = (
+				78DFF366C76EF65207EB3CE3 /* Sources */,
+				0A3198D3058382FAE8127FA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Blueshot;
+			packageProductDependencies = (
+			);
+			productName = Blueshot;
+			productReference = 1D80E65F5882A356F55649BA /* Blueshot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED8A607710DAF290CF5AA4D9 /* BlueshotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A23EA6FF1DCD5E4257C4F98D /* Build configuration list for PBXNativeTarget "BlueshotTests" */;
+			buildPhases = (
+				1009897E21AC89897116CF6E /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28F4700270B053CFFA6D50C0 /* PBXTargetDependency */,
+			);
+			name = BlueshotTests;
+			packageProductDependencies = (
+			);
+			productName = BlueshotTests;
+			productReference = 254BE0F5C95CEA856EAEA891 /* BlueshotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		478726839CF528640B527F2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					46A65C7400B112AC2BB16F8E = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					ED8A607710DAF290CF5AA4D9 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 57A33811E740E4F8788D58CE /* Build configuration list for PBXProject "Blueshot" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 017A6500056D2C94FDF59535;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7C1842FE7E6A5C046A929A6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46A65C7400B112AC2BB16F8E /* Blueshot */,
+				ED8A607710DAF290CF5AA4D9 /* BlueshotTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A3198D3058382FAE8127FA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782EC2683BC99EAFF84384C9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1009897E21AC89897116CF6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07E8E4512EDE1032C74C7832 /* CanvasRendererTests.swift in Sources */,
+				ED6AAB6D7DA9B16154D0330E /* FileNamingServiceTests.swift in Sources */,
+				8FC0D4FF4E91E382E14A65F9 /* HotKeyConfigurationTests.swift in Sources */,
+				AEDCC4A381DBC5D03F39BF6B /* UndoRedoManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78DFF366C76EF65207EB3CE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C0F2E4F30D292D199F3045F /* Annotation.swift in Sources */,
+				82BFE09EEC15D799FAE82E47 /* AppDelegate.swift in Sources */,
+				D9F5318B59A0A267C32062C4 /* AppEnvironment.swift in Sources */,
+				EE5AE5A5EEB6525FCA3527E3 /* AppPreferences.swift in Sources */,
+				809F52BC06D3FF25B66F2525 /* ArrowAnnotation.swift in Sources */,
+				84EC8704F4B0D00483EDBE02 /* BlueshotApp.swift in Sources */,
+				9C9FB817C726D5E59DA552BB /* BlueshotError.swift in Sources */,
+				5A374EF1B7916FDAEEEC8463 /* BlurAnnotation.swift in Sources */,
+				33E4BAB0436A6B1A8E55DE3E /* BookmarkManager.swift in Sources */,
+				AABB99F32CC9278386ED4002 /* CGGeometry+Scaling.swift in Sources */,
+				8BC6AEDAC926C4AD5D53A2E3 /* CanvasRenderer.swift in Sources */,
+				5514E74226A7C0C1542163AB /* CanvasView.swift in Sources */,
+				D01E6041BDCB37F1670B689F /* CaptureCoordinator.swift in Sources */,
+				0D72C979C6BB242970A0ACBE /* CaptureResult.swift in Sources */,
+				E9A9695FEF4503A42E028F7D /* DisplayManager.swift in Sources */,
+				911C964E6C5DEE80F7C42D87 /* DrawingTool.swift in Sources */,
+				ED618901A1D81F2B134099A1 /* EditorView.swift in Sources */,
+				88D5BC5BE9ADF46285AF010A /* EditorViewModel.swift in Sources */,
+				9B75FEA4FC2FE69315550336 /* EditorWindowController.swift in Sources */,
+				7F79759900E82CA3E4DE76D2 /* ExportConfiguration.swift in Sources */,
+				DCB4D69EE3FF216B1DF288A2 /* ExportService.swift in Sources */,
+				7199194B024B9D71B7DB1AC6 /* FileNamingService.swift in Sources */,
+				85671AF796FBAC25FFC3F381 /* FileSettingsView.swift in Sources */,
+				7CC7BD199F9A252F41CBA1B7 /* GeneralSettingsView.swift in Sources */,
+				7A577FEE5C9F3DD99DBE0F80 /* HighlightAnnotation.swift in Sources */,
+				9C7D6C269E1CE9FAF19DABA9 /* HotKeyConfiguration.swift in Sources */,
+				B529F2CB331BC374EF1050B9 /* HotKeyManager.swift in Sources */,
+				9FE895C0CE1E370FFF11E3A0 /* HotKeyRecorderView.swift in Sources */,
+				E1674FEEA5792805A6278B54 /* HotKeySettingsView.swift in Sources */,
+				1054DBF7B905EAAC669952F9 /* Logger+Blueshot.swift in Sources */,
+				5A868731DFC97727545D06D5 /* MagnifierView.swift in Sources */,
+				146F05408AAA1E529FC70728 /* MenuBarView.swift in Sources */,
+				D74B887E93A9D415D468A8E5 /* MosaicAnnotation.swift in Sources */,
+				1DD4B320A95E21ED4508A464 /* PermissionManager.swift in Sources */,
+				7A67588313018099DCA6063C /* PermissionPromptView.swift in Sources */,
+				88657CBB057A824CA224689B /* RectangleAnnotation.swift in Sources */,
+				163D5DDD05C5A756DC6FDF75 /* RegionSelectorView.swift in Sources */,
+				926F1E7B8BA6963C47732A40 /* RegionSelectorWindowController.swift in Sources */,
+				E6997CC905B552E0D2A86D28 /* ScreenCaptureService.swift in Sources */,
+				6E72A7F9D6716C3188C80107 /* SettingsView.swift in Sources */,
+				782514050E985E1EC2E209E6 /* TextAnnotation.swift in Sources */,
+				DBB1477345E59B8F7152DF50 /* UndoRedoManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28F4700270B053CFFA6D50C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46A65C7400B112AC2BB16F8E /* Blueshot */;
+			targetProxy = 891BA6905201E5D034614063 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5BDAE3CC4D231C72837215A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Blueshot/Resources/Blueshot.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_APP_SANDBOX = YES;
+				INFOPLIST_FILE = Blueshot/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blueshot.app;
+				PRODUCT_NAME = Blueshot;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AA5BD03BCCCC1FAF861937C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		B071005864DCF398C45949CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blueshot.tests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blueshot.app/Contents/MacOS/Blueshot";
+			};
+			name = Debug;
+		};
+		D6778A8F1F3EBE151199120F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		D8B846841588EF31EEC89A87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blueshot.tests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blueshot.app/Contents/MacOS/Blueshot";
+			};
+			name = Release;
+		};
+		E466385F468FFF7AB6337C1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Blueshot/Resources/Blueshot.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_APP_SANDBOX = YES;
+				INFOPLIST_FILE = Blueshot/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blueshot.app;
+				PRODUCT_NAME = Blueshot;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57A33811E740E4F8788D58CE /* Build configuration list for PBXProject "Blueshot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6778A8F1F3EBE151199120F /* Debug */,
+				AA5BD03BCCCC1FAF861937C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A23EA6FF1DCD5E4257C4F98D /* Build configuration list for PBXNativeTarget "BlueshotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B071005864DCF398C45949CE /* Debug */,
+				D8B846841588EF31EEC89A87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D563D6F2EDF7F39BF5AF84E9 /* Build configuration list for PBXNativeTarget "Blueshot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BDAE3CC4D231C72837215A9 /* Debug */,
+				E466385F468FFF7AB6337C1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 478726839CF528640B527F2F /* Project object */;
+}
