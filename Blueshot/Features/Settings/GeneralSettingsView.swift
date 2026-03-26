@@ -1,10 +1,27 @@
 import SwiftUI
+import ServiceManagement
 
 struct GeneralSettingsView: View {
     @Bindable private var preferences = AppPreferences.shared
+    @State private var launchAtLogin = (SMAppService.mainApp.status == .enabled)
 
     var body: some View {
         Form {
+            Section("起動") {
+                Toggle("ログイン時に自動起動", isOn: $launchAtLogin)
+                    .onChange(of: launchAtLogin) { _, newValue in
+                        do {
+                            if newValue {
+                                try SMAppService.mainApp.register()
+                            } else {
+                                try SMAppService.mainApp.unregister()
+                            }
+                        } catch {
+                            launchAtLogin = !newValue
+                        }
+                    }
+            }
+
             Section("出力") {
                 Picker("保存先", selection: $preferences.exportDestination) {
                     ForEach(ExportDestination.allCases, id: \.self) { dest in
