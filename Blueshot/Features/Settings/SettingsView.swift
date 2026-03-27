@@ -25,7 +25,7 @@ struct SettingsView: View {
                     .tag(tab)
             }
         }
-        .frame(width: 520, height: 430)
+        .frame(width: 520, height: 540)
     }
 
     @ViewBuilder
